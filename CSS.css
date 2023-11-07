@@ -1,0 +1,144 @@
+/*
+Name: Tyler Avirett
+File name: Css.css
+Date: 11/20/22 */
+
+/* CSS Reset */
+
+body, header, nav, main, footer, h1, div, img section, article, aside, figure, figcaption{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* Header style*/
+header{
+  font-family: Arial, Lato, Tahoma, sans-serif;
+  color:black;
+  background-color: gray;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 10%;
+}
+
+.button{
+  background-color: steelblue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  border-radius: 40%;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:hover {
+  background-color: green; /* Green */
+  color: white;
+}
+.background {
+  background-color: gray;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+/* Main Style */
+.iframe {
+  color: white;
+  text-align: center;
+  border-style: outset;
+  border-color: white;
+}
+main {
+  font-family: Arial, Lato, Tahoma, sans-serif;
+  font-size: 1em;
+  
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+	padding: 1em;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.caption {
+    display: block;
+}
+.textbox {
+  color: black;
+  text-align: center;
+  background-color: deepskyblue;
+  font-size: 105%;
+  border-width: .25em;
+  border-style: outset;
+  border-color: white;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+/*Media Query*/
+
+@media screen and (min-width: 480px) {
+  .textbox{margin: 25px 165px 25px 165px}
+
+}
+@media screen and (min-width: 880px) {
+  .textbox{margin: 25px 300px 25px 300px}
+  nav li a:link {color:black;}
+  nav li a:visited {color:blue;}
+  nav li a:hover {color:blue;}
+  nav li a:active {color:red;}
+  main a:link {color:black;}
+  main a:visited {color:blue;}
+  main a:hover {color:green;}
+  main a:active {color:red:}
+}
+
+/* nav style*/
+ul{
+  list-style-type: square;
+  text-decoration-line: none;
+}
+nav li{
+  font-family: "Trebuchet MS", sans-serif;
+  list-style-type: none;
+  display: inline-block;
+  left: -1em;
+  font-size: 1em;
+  position: relative;
+
+}
+nav li a {
+  display:block;
+  color: Black;
+  Text-align: left;
+  left: -5em;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+#Puppies {
+  padding: 3em 3em;
+  border-radius: 60%;
+  height: 20%;
+  width: 20%;
+  max-height: 100%;
+
+}
+#Personal {
+  padding: 3em 3em;
+  border-radius: 40%;
+  height: 20%;
+  width: 18%;
+  max-height: 100%;
+  top: -12em;
+}
+
+/* Footer style */
+figure img{
+  border-radius: 20%;
+}
